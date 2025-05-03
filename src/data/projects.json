@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "logo": "/blog_logo.png",
+    "desc": "Blog App",
+    "content": "We build modern, blazing-fast web applications. Integrated ImageKit.io for optimized image storage and CDN delivery, TanStack Query for efficient data fetching, caching, and infinite scroll for seamless UX, Designed responsive UI with Tailwind CSS and lazy loading for cross-device accessibility",
+    "tools": ["MongoDB", "Express", "React", "Node.js"],
+    "link": "https://blog-app-cppv.onrender.com",
+    "isDone": true
+  },
+  {
+    "id": 1,
+    "logo": "/personal_finance_logo.png",
+    "desc": "Personal Finance Website",
+    "content": "MERN full stack application having features like Add/Edit/Delete transactions, transaction list view, Monthly expenses bar chart, Category-wise pie chart. Dashboard with summary cards: total expenses, category breakdown, most recent transactions",
+    "tools": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "Recharts",
+      "Shadcn/ui"
+    ],
+    "link": "https://personal-finance-git-main-yogesh0aryas-projects.vercel.app",
+    "isDone": true
+  },
+  {
+    "id": 2,
+    "logo": "/amazon_logo.png",
+    "desc": "Amazone Clone",
+    "content": "Built a fully responsive e-commerce web app using Next.js, Tailwind CSS, and Redux, featuring cart functionality and Stripe integration for payment processing.",
+    "tools": ["Next.js", "Stripe", "TailwindCSS"],
+    "link": "https://amazon-swart.vercel.app/",
+    "isDone": true
+  },
+  {
+    "id": 3,
+    "logo": "/grocery_shop_logo.png",
+    "desc": "Grocery Shopping App",
+    "content": "Designed a multi-user grocery shopping platform with Python, Flask, Vue.js, and Redis, supporting features like product search, cart management, and batch job processing with Celery",
+    "tools": ["Python", "Flask", "Vue.js", "Redis", "Celery"],
+    "link": "/",
+    "isDone": true
+  },
+  {
+    "id": 4,
+    "logo": "/video_editor_logo.png",
+    "desc": "Video Editing Platform",
+    "content": "We are building a browser-based video editing tool. Features includes Upload custom video, Rearrage audio and styled images, preview the edited video in real time, Export and download the final version",
+    "tools": [
+      "Next.js",
+      "Tailwind Css",
+      "Redux",
+      "React Player",
+      "React Dropzone",
+      "React DnD"
+    ],
+    "link": "/",
+    "isDone": false
+  },
+  {
+    "id": 5,
+    "logo": "/story_book_logo.png",
+    "desc": "StoryTeller AI",
+    "content": "Bringing story to life. Building a AI powered stories web platfrom where user can generate a story book which contains images and the content",
+    "tools": [
+      "Next.js",
+      "Tailwind Css",
+      "OpenAI",
+      "AI Agent",
+      "Typescript",
+      "GPTScript"
+    ],
+    "link": "/",
+    "isDone": false
+  }
+]

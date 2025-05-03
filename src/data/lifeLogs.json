@@ -1,0 +1,54 @@
+[
+  {
+    "year": 2024,
+    "logs": [
+      {
+        "name": "Teaching Assistance",
+        "desc": "Teaching Assistant in Programming and data structure, and now in Quantum Machine Learning at IIT Madras"
+      },
+      {
+        "name": "Gate 2024 Qualified",
+        "desc": "I got Data Science and Engineering in M.tech at IIT Madras"
+      },
+      {
+        "name": "IIT Madras BSc. Graduated",
+        "desc": "Graduated from IIT Madras BSc course in Data Science"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "logs": [
+      {
+        "name": "Frontend Developer",
+        "desc": "Freelancer Remotely and build many projects for the clients "
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "logs": [
+      {
+        "name": "Graduated from NIT Bhopal",
+        "desc": "Graduated from NIT Bhopal in B.tech Computer Science and Engineering"
+      },
+      {
+        "name": "Internship in Software Developer",
+        "desc": "Youth India Foundation provides a intership for 3 months"
+      },
+      {
+        "name": "Internship in Web Developer",
+        "desc": "Remotely done 1 months of intership at Aimdas"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "logs": [
+      {
+        "name": "Admission in NIT Bhopal",
+        "desc": "I got Btech in Computer Science and Engineering after getting good rank in JEE exam "
+      }
+    ]
+  }
+]
