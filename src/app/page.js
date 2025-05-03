@@ -306,7 +306,7 @@ export default function Home() {
                 <p className="text-lg mb-2">
                   Drop your message and let us discuss about your project.
                 </p>
-                <Link href="https://api.whatsapp.com/send/?phone=918770852087&text=Hey,+I+just+show+your+portfolio.+I+want+to+talk+with+you&type=phone_number&app_absent=0">
+                <Link href="https://api.whatsapp.com/send/?phone=918770852087&text=Hey,+I+just+show+your+portfolio.+You+are+the+number+1+developer+in+the+world.+I+want+to+talk+with+you&type=phone_number&app_absent=0">
                   <Button
                     className="bg-green-500 dark:bg-green-500 text-white"
                     variant="outline"
@@ -347,7 +347,7 @@ export default function Home() {
                 id="message"
                 name="message"
                 className="bg-white dark:bg-gray-800 dark:text-white mt-2 rounded-lg w-full p-2 text-base"
-                placeholder="Hey yogesh, you are the number 1 developer.."
+                placeholder="Hey yogesh, you are the number 1 developer in the world.."
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
