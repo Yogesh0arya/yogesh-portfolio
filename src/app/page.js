@@ -299,12 +299,12 @@ export default function Home() {
         <Card className="bg-orange-50 dark:bg-blue-950">
           <CardHeader>
             <CardTitle className="text-black text-3xl font-bold dark:text-white ">
-              Want to hire me as a freelancer? Let's discuss
+              Want to hire me as a freelancer? Let us discuss
             </CardTitle>
             <CardDescription>
               <div>
                 <p className="text-lg mb-2">
-                  Drop your message and let's discuss about your project.
+                  Drop your message and let us discuss about your project.
                 </p>
                 <Link href="https://api.whatsapp.com/send/?phone=918770852087&text=Hey,+I+just+show+your+portfolio.+I+want+to+talk+with+you&type=phone_number&app_absent=0">
                   <Button
