@@ -103,14 +103,17 @@ export default function Home() {
             ? "Loading..."
             : posts?.slice(0, 2).map((post) => (
                 <Card key={post._id} className="bg-gray-100 dark:bg-gray-900">
-                  <CardContent className="flex justify-between">
+                  <CardContent className="">
                     <p className="font-bold">{post.title}</p>
-                    <p className="dark:text-gray-400">
-                      {format(post.createdAt)}
-                    </p>
                   </CardContent>
-                  <CardFooter className="text-sm text-gray-500 cursor-pointer">
-                    <Link href={`/blog/${post.slug}`}>Read more</Link>
+                  <CardFooter className="text-sm text-gray-500  flex justify-between">
+                    <Link
+                      className="dark:text-gray-400 cursor-pointer"
+                      href={`/blog/${post.slug}`}
+                    >
+                      Read more
+                    </Link>
+                    <p>{format(post.createdAt)}</p>
                   </CardFooter>
                 </Card>
               ))}
