@@ -26,7 +26,7 @@
   },
   {
     "id": 2,
-    "logo": "/amazon_logo.png",
+    "logo": "/Amazon_logo.png",
     "desc": "Amazone Clone",
     "content": "Built a fully responsive e-commerce web app using Next.js, Tailwind CSS, and Redux, featuring cart functionality and Stripe integration for payment processing.",
     "tools": ["Next.js", "Stripe", "TailwindCSS"],
