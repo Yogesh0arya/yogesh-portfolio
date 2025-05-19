@@ -10,22 +10,7 @@ import Link from "next/link";
 import React from "react";
 
 function Snippets() {
-  const snippets = [
-    {
-      id: 0,
-      name: "OTP Input Field",
-      desc: "How to built the OTP input field component using React",
-      link: "/snippets/Otp",
-      logo: "/Otp.png",
-    },
-    {
-      id: 1,
-      name: "Tab Form Component",
-      desc: "Building tabs with React is simple, they are just a Button group in disguise.",
-      link: "/snippets/TabForm",
-      logo: "/TabForm.png",
-    },
-  ];
+  const snippets = require("@/data/snippets.json");
 
   return (
     <div>
