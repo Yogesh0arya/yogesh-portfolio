@@ -259,7 +259,7 @@ const [cache, setCahce] = useState({});        // Stores previously fetched resu
               <li>Highlight matching keywords in suggestions</li>
               <li>Add keyboard navigation (arrow keys to select).</li>
               <li>Add loading spinner while fetching data.</li>
-              <li>Show “No results found” if result.length === 0.</li>
+              <li>Show No results found if result.length === 0.</li>
               <li>
                 Provides a smooth user experience like most OTP inputs on modern
                 apps

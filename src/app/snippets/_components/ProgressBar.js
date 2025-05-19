@@ -56,7 +56,7 @@ function ProgressBar() {
           </pre>
           <div>
             <p className="text-lg text-gray-600 dark:text-gray-100 mb-2 mt-4">
-              ✅ What’s happening here:
+              ✅ What is happening here:
             </p>
             <ul className="list-disc list-inside text-base text-gray-500 dark:text-gray-300">
               <li>
@@ -122,7 +122,7 @@ function ProgressBar() {
 
           <div>
             <p className="text-lg text-gray-600 dark:text-gray-100 mb-2 mt-4">
-              ✅ What’s going on:
+              ✅ What is going on:
             </p>
             <ul className="list-disc list-inside text-base text-gray-500 dark:text-gray-300">
               <li>
