@@ -86,7 +86,7 @@ export const Navbar = () => {
           />
           <Sun
             fill="#FF3333"
-            className="absolute text-orange-500 h-10 w-10 scale-0 rotate-90 dark:-rotate-0 dark:scale-100"
+            className="absolute text-[#FF3333] h-10 w-10 scale-0 rotate-90 dark:-rotate-0 dark:scale-100"
           />
         </Button>
 

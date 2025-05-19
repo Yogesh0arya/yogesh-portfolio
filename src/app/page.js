@@ -133,6 +133,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-4">
           {projects
             .filter((p) => p.isDone)
+            .slice(0, 4)
             .map((project) => (
               <Link href={project.link} key={project.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 ">
