@@ -184,10 +184,14 @@ const [cache, setCahce] = useState({});        // Stores previously fetched resu
             <p className="text-lg text-gray-600 dark:text-gray-100 mb-2 mt-4">
               ✅ Logic:
             </p>
-            <ul className="list-disc list-inside text-base text-gray-500 dark:text-gray-300">
-              <li>Render suggestions only if:</li>
-              <li>search is non-empty</li>
-              <li>Input is focused (open === true)</li>
+            <ul className="text-base text-gray-500 dark:text-gray-300">
+              <li>
+                Render suggestions only if:
+                <ul className="list-disc list-inside pl-4">
+                  <li>search is non-empty</li>
+                  <li>Input is focused (open === true)</li>
+                </ul>
+              </li>
               <li>Maps result array and displays each name as a list item.</li>
             </ul>
           </div>
