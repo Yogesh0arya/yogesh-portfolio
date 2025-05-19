@@ -180,7 +180,7 @@ const handleSubmit = () => {
           </pre>
           <div>
             <ul className="list-disc list-inside text-base text-gray-500 dark:text-gray-300">
-              <li>Next: Proceeds only if current tab's validation passes.</li>
+              <li>Next: Proceeds only if current tab is validation passes.</li>
               <li>Prev: Goes back without validation.</li>
               <li>Submit: Shown only on the last tab.</li>
             </ul>
