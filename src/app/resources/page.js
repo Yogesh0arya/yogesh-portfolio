@@ -19,7 +19,7 @@ function Resources() {
         Resources
       </h1>
       <p>
-        Helpful websites that I've been using for years that have helped me in
+        Helpful websites that I have been using for years that have helped me in
         developing applications and much more.
       </p>
 
