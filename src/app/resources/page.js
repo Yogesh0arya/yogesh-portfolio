@@ -32,7 +32,7 @@ function Resources() {
           {resources
             .filter((resource) => resource.cat === "frontend")
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -74,7 +74,7 @@ function Resources() {
               (resource) => resource.cat === "ui" || resource.cat === "css"
             )
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -114,7 +114,7 @@ function Resources() {
           {resources
             .filter((resource) => resource.cat === "backend")
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -154,7 +154,7 @@ function Resources() {
           {resources
             .filter((resource) => resource.cat === "database")
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -194,7 +194,7 @@ function Resources() {
           {resources
             .filter((resource) => resource.cat === "hosting")
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -234,7 +234,7 @@ function Resources() {
           {resources
             .filter((resource) => resource.cat === "testing")
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -274,7 +274,7 @@ function Resources() {
           {resources
             .filter((resource) => resource.cat === "full stack")
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>
@@ -317,7 +317,7 @@ function Resources() {
                 resource.cat === "API" || resource.cat === "state management"
             )
             .map((resource) => (
-              <Link href="/" key={resource.id}>
+              <Link href={resource.link} key={resource.id}>
                 <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
                   <CardHeader>
                     <CardTitle>

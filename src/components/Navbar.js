@@ -117,7 +117,7 @@ export const Navbar = () => {
         <div className="flex gap-4 items-center sm:hidden font-medium">
           <nav className="flex gap-4">
             <Link href="/">Home</Link>
-            <Link href="/">Project</Link>
+            <Link href="/projects">Project</Link>
           </nav>
 
           <Button onClick={() => setOpen(!open)} variant="outline">
