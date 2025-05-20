@@ -28,7 +28,7 @@ function Resources() {
         <h1 className="text-2xl font-semibold mb-4">
           🎨 Front-End Development
         </h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter((resource) => resource.cat === "frontend")
             .map((resource) => (
@@ -68,7 +68,7 @@ function Resources() {
       {/* UI Design */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">🖼️ UI Design</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter(
               (resource) => resource.cat === "ui" || resource.cat === "css"
@@ -110,7 +110,7 @@ function Resources() {
       {/* Backend */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">🖥️ Back-End Development</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter((resource) => resource.cat === "backend")
             .map((resource) => (
@@ -150,7 +150,7 @@ function Resources() {
       {/* Databases */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">📃 Databases</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter((resource) => resource.cat === "database")
             .map((resource) => (
@@ -190,7 +190,7 @@ function Resources() {
       {/* Hosting */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">🛜 Hosting</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter((resource) => resource.cat === "hosting")
             .map((resource) => (
@@ -230,7 +230,7 @@ function Resources() {
       {/* Testing */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">🧪 Testing</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter((resource) => resource.cat === "testing")
             .map((resource) => (
@@ -270,7 +270,7 @@ function Resources() {
       {/* Full stack */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">⚙️ Full-Stack</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter((resource) => resource.cat === "full stack")
             .map((resource) => (
@@ -310,7 +310,7 @@ function Resources() {
       {/* Other */}
       <section className="my-8">
         <h1 className="text-2xl font-semibold mb-4">🧰 Other</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {resources
             .filter(
               (resource) =>
