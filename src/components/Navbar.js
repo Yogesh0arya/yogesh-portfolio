@@ -109,6 +109,9 @@ export const Navbar = () => {
           <Tab setPosition={setPosition} path="/projects">
             Projects
           </Tab>
+          <Tab setPosition={setPosition} path="/templates">
+            Templates
+          </Tab>
 
           <Cursor position={position} />
         </nav>
@@ -118,6 +121,7 @@ export const Navbar = () => {
           <nav className="flex gap-4">
             <Link href="/">Home</Link>
             <Link href="/projects">Project</Link>
+            <Link href="/templates">Templates</Link>
           </nav>
 
           <Button onClick={() => setOpen(!open)} variant="outline">

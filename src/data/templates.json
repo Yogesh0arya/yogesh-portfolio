@@ -1,0 +1,10 @@
+[
+  {
+    "id": 0,
+    "name": "Starbucks",
+    "desc": "Crafted to perfection, this Starbucks Website Template offers a stunning digital experience mirroring the iconic coffee brand. Built with Next.js for blazing-fast performance, Shadcn UI for beautiful, accessible components, and Tailwind CSS for a fully responsive, pixel-perfect design. Experience an awesome look and seamless navigation on any device.",
+    "link": "https://starbucks-kappa-snowy.vercel.app/",
+    "image": "/starbucks.png",
+    "price": "49"
+  }
+]
