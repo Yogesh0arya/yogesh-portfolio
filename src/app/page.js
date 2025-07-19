@@ -17,6 +17,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "sonner";
+import Character from "@/components/Character";
 
 export default function Home() {
   const [posts, setPosts] = useState(null);
@@ -73,14 +74,21 @@ export default function Home() {
           className="w-32 h-32"
         />
         <div>
-          <h1 className="text-black text-3xl font-bold dark:text-white mb-1">
+          <h1 className="text-black text-3xl font-bold dark:text-white mb-2">
             Yogesh Arya
           </h1>
           <p className="mb-5 text-base text-gray-500 dark:text-gray-300">
-            Mtech from IIT Madras, Btech from NIT Bhopal
+            <a
+              className="inline font-medium px-2 py-1 my-2 rounded-md bg-gray-100 dark:bg-white dark:text-black mr-2"
+              href="https://pentogram.in"
+            >
+              Pentogram.in
+            </a>
+            Founder ,Mtech @ IIT Madras, Btech @ NIT Bhopal
           </p>
           <p className="max-w-[480px] dark:text-gray-400">
-            Software Engineer building SaaS products and web apps. Find me on
+            Senior Software Engineer building SaaS products and web apps. Find
+            me on
             <a
               className="inline font-medium dark:text-white"
               href="https://www.linkedin.com/in/Yogesh08arya"
@@ -136,9 +144,9 @@ export default function Home() {
             .slice(0, 4)
             .map((project) => (
               <Link href={project.link} key={project.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 ">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
-                    <CardTitle className="p-2 w-fit dark:bg-white rounded-full">
+                    <CardTitle className="p-2 w-fit dark:bg-orange-300 bg-orange-100 rounded-full">
                       <Image
                         src={project.logo}
                         width={100}
@@ -154,7 +162,7 @@ export default function Home() {
                   <CardContent className="text-gray-600 dark:text-gray-300">
                     <p>{project.content}</p>
                   </CardContent>
-                  <CardFooter className="flex gap-2 italic text-sm flex-wrap">
+                  <CardFooter className="flex gap-2 italic text-sm flex-wrap mt-auto">
                     {project.tools.map((tool, i) => (
                       <p
                         key={i}
@@ -193,7 +201,7 @@ export default function Home() {
                 className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 "
               >
                 <CardHeader>
-                  <CardTitle className="p-2 w-fit dark:bg-white rounded-full">
+                  <CardTitle className="p-2 w-fit rounded-full dark:bg-orange-300 bg-orange-100">
                     <Image
                       src={project.logo}
                       width={100}
@@ -364,6 +372,8 @@ export default function Home() {
           </CardContent>
         </Card>
       </section>
+
+      {/* <Character /> */}
     </div>
   );
 }

@@ -4,27 +4,27 @@
     "name": "OTP Input Field",
     "desc": "How to built the OTP input field component using React",
     "link": "/snippets/Otp",
-    "logo": "/Otp.png"
+    "logo": "/snippets/Otp.png"
   },
   {
     "id": 1,
     "name": "Tab Form Component",
     "desc": "Building tabs with React is simple, they are just a Button group in disguise.",
     "link": "/snippets/TabForm",
-    "logo": "/TabForm.png"
+    "logo": "/snippets/TabForm.png"
   },
   {
     "id": 2,
     "name": "Progress Bar",
     "desc": "We will learn to create a progress bar from scratch in ReactJS",
     "link": "/snippets/ProgressBar",
-    "logo": "/ProgressBar.png"
+    "logo": "/snippets/ProgressBar.png"
   },
   {
     "id": 3,
     "name": "Auto Complete Search Bar",
     "desc": "We will be building a React autocomplete search component that provides suggestions as a user types a search query.",
     "link": "/snippets/AutoCompleteSearchBar",
-    "logo": "/AutoCompleteSearchBar.png"
+    "logo": "/snippets/AutoCompleteSearchBar.png"
   }
 ]

@@ -33,7 +33,7 @@ function Resources() {
             .filter((resource) => resource.cat === "frontend")
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -75,7 +75,7 @@ function Resources() {
             )
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -115,7 +115,7 @@ function Resources() {
             .filter((resource) => resource.cat === "backend")
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -155,7 +155,7 @@ function Resources() {
             .filter((resource) => resource.cat === "database")
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -195,7 +195,7 @@ function Resources() {
             .filter((resource) => resource.cat === "hosting")
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -235,7 +235,7 @@ function Resources() {
             .filter((resource) => resource.cat === "testing")
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -275,7 +275,7 @@ function Resources() {
             .filter((resource) => resource.cat === "full stack")
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (
@@ -318,7 +318,7 @@ function Resources() {
             )
             .map((resource) => (
               <Link href={resource.link} key={resource.id}>
-                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5">
+                <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                   <CardHeader>
                     <CardTitle>
                       {resource.link && (

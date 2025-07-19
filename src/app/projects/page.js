@@ -25,9 +25,9 @@ function Projects() {
           .filter((p) => p.isDone)
           .map((project) => (
             <Link href={project.link} key={project.id}>
-              <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 ">
+              <Card className="relative cursor-pointer hover:shadow-lg transition-all duration-400  hover:bg-gradient-to-r hover:from-violet-600/5 hover:to-orange-600/5 h-full">
                 <CardHeader>
-                  <CardTitle className="p-2 w-fit dark:bg-white rounded-full">
+                  <CardTitle className="p-2 w-fit  rounded-full dark:bg-orange-300 bg-orange-100">
                     <Image
                       src={project.logo}
                       width={100}
@@ -43,7 +43,7 @@ function Projects() {
                 <CardContent className="text-gray-600 dark:text-gray-300">
                   <p>{project.content}</p>
                 </CardContent>
-                <CardFooter className="flex gap-2 italic text-sm flex-wrap">
+                <CardFooter className="flex gap-2 italic text-sm flex-wrap mt-auto">
                   {project.tools.map((tool, i) => (
                     <p
                       key={i}

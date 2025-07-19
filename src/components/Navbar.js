@@ -109,9 +109,9 @@ export const Navbar = () => {
           <Tab setPosition={setPosition} path="/projects">
             Projects
           </Tab>
-          <Tab setPosition={setPosition} path="/templates">
+          {/* <Tab setPosition={setPosition} path="/templates">
             Templates
-          </Tab>
+          </Tab> */}
 
           <Cursor position={position} />
         </nav>

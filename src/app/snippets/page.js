@@ -26,7 +26,7 @@ function Snippets() {
       <div className="grid md:grid-cols-2 gap-4 mt-8">
         {snippets.map((snippet) => (
           <Link href={snippet.link} key={snippet.id}>
-            <Card>
+            <Card className="h-full">
               <CardHeader>
                 <CardTitle className="my-2">{snippet.name}</CardTitle>
                 <CardDescription>{snippet.desc}</CardDescription>

@@ -4,7 +4,7 @@
     "name": "Next.js",
     "desc": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static rendering.",
     "link": "https://nextjs.org/",
-    "logo": "/nextjs.svg",
+    "logo": "/resources/nextjs.svg",
     "cat": "frontend"
   },
   {
@@ -12,7 +12,7 @@
     "name": "React.js",
     "desc": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.",
     "link": "https://react.dev/",
-    "logo": "/Reactjs.webp",
+    "logo": "/resources/Reactjs.webp",
     "cat": "frontend"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Tailwind CSS",
     "desc": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
     "link": "https://tailwindcss.com/",
-    "logo": "/Tailwindcss.png",
+    "logo": "/resources/Tailwindcss.png",
     "cat": "css"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Shadcn/ui",
     "desc": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite framework",
     "link": "https://ui.shadcn.com/",
-    "logo": "/shadcnui.png",
+    "logo": "/resources/shadcnui.png",
     "cat": "ui"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Recharts",
     "desc": "Quickly build your charts with decoupled, reusable React components. Reliable. Built on top of SVG elements with a lightweight dependency on D3 submodules",
     "link": "https://recharts.org/en-US",
-    "logo": "/recharts.png",
+    "logo": "/resources/recharts.png",
     "cat": "ui"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Heroicons",
     "desc": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
     "link": "https://heroicons.com/",
-    "logo": "/heroicons.svg",
+    "logo": "/resources/heroicons.svg",
     "cat": "ui"
   },
   {
@@ -52,7 +52,7 @@
     "name": "React icons",
     "desc": "Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.",
     "link": "https://react-icons.github.io/react-icons/",
-    "logo": "/reacticons.svg",
+    "logo": "/resources/reacticons.svg",
     "cat": "ui"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Material UI",
     "desc": "Material UI is an open-source React component library that implements Google's Material Design. It's comprehensive and can be used in production out of the box.",
     "link": "https://mui.com/material-ui/material-icons/",
-    "logo": "/materialui.png",
+    "logo": "/resources/materialui.png",
     "cat": "ui"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Font Awesome",
     "desc": "Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators.",
     "link": "https://fontawesome.com/v5/icons/font-awesome-logo-full?s=solid",
-    "logo": "/fontawesome.png",
+    "logo": "/resources/fontawesome.png",
     "cat": "ui"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Node.js",
     "desc": "Node.js is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
     "link": "https://nodejs.org/en",
-    "logo": "/nodejs.png",
+    "logo": "/resources/nodejs.png",
     "cat": "backend"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Express.js",
     "desc": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
     "link": "https://expressjs.com/",
-    "logo": "/expressjs.png",
+    "logo": "/resources/expressjs.png",
     "cat": "backend"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Firebase",
     "desc": "Firebase provides detailed documentation and cross-platform app development SDKs, to help you build and ship apps for iOS, Android, the Web, Flutter, Unity, and C++.",
     "link": "https://firebase.google.com/",
-    "logo": "/firebase.svg",
+    "logo": "/resources/firebase.svg",
     "cat": "database"
   },
   {
@@ -100,7 +100,7 @@
     "name": "MongoDB",
     "desc": "MongoDB is a document database. It stores data in a type of JSON format called BSON.",
     "link": "https://www.mongodb.com/",
-    "logo": "/mongoDB.webp",
+    "logo": "/resources/mongoDB.webp",
     "cat": "database"
   },
   {
@@ -108,7 +108,7 @@
     "name": "PostgreSQL",
     "desc": "PostgreSQL also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.",
     "link": "https://www.postgresql.org/",
-    "logo": "/postgreSQL.png",
+    "logo": "/resources/postgreSQL.png",
     "cat": "database"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Vercel",
     "desc": "Your complete platform for the web. Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.",
     "link": "https://vercel.com/",
-    "logo": "/vercel.svg",
+    "logo": "/resources/vercel.svg",
     "cat": "hosting"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Netlify",
     "desc": "Netlify is a remote-first cloud computing company that offers a development platform that includes build, deploy, and serverless backend services for web applications and dynamic websites.",
     "link": "https://www.netlify.com/",
-    "logo": "/netlify.svg",
+    "logo": "/resources/netlify.svg",
     "cat": "hosting"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Render",
     "desc": "Render is a fully-managed cloud platform where you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place.",
     "link": "https://render.com/",
-    "logo": "/render.jpg",
+    "logo": "/resources/render.jpg",
     "cat": "hosting"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Postman",
     "desc": "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better application.",
     "link": "https://www.postman.com/",
-    "logo": "/postman.png",
+    "logo": "/resources/postman.png",
     "cat": "testing"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Chrome DevTools",
     "desc": "Google Chrome for developers was built for the open web. Test cutting-edge web platform APIs and developer tools that are updated weekly.",
     "link": "https://developer.chrome.com/docs/devtools",
-    "logo": "/chromeDevTool.jpeg",
+    "logo": "/resources/chromeDevTool.jpeg",
     "cat": "testing"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Next.js",
     "desc": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static rendering.",
     "link": "https://nextjs.org/",
-    "logo": "/nextjs.svg",
+    "logo": "/resources/nextjs.svg",
     "cat": "full stack"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Docker",
     "desc": "Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.",
     "link": "https://www.docker.com/",
-    "logo": "/docker.webp",
+    "logo": "/resources/docker.webp",
     "cat": "full stack"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Vite",
     "desc": "The Build Tool for the Web. Vite is a blazing fast frontend build tool powering the next generation of web applications.",
     "link": "https://vite.dev/",
-    "logo": "/vite.svg",
+    "logo": "/resources/vite.svg",
     "cat": "full stack"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Redux",
     "desc": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.",
     "link": "https://redux.js.org/",
-    "logo": "/redux.png",
+    "logo": "/resources/redux.png",
     "cat": "state management"
   },
   {
@@ -188,7 +188,7 @@
     "name": "React Query(TanStack Query)",
     "desc": "TanStack Query, formerly known as React Query, is a powerful data-fetching and state management library for React applications. It simplifies the process of fetching, caching, synchronizing, and updating server state. ",
     "link": "https://tanstack.com/query",
-    "logo": "/tanstack.png",
+    "logo": "/resources/tanstack.png",
     "cat": "API"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Typescript",
     "desc": "TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor.",
     "link": "https://www.typescriptlang.org/",
-    "logo": "/typescript.webp",
+    "logo": "/resources/typescript.webp",
     "cat": "frontend"
   }
 ]
